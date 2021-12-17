@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: globex
-          image: lrochette/globex:316958271be7b0c63fa804875b3dce338684001c
+          image: lrochette/globex:b1784c7d0819c9e7288268f6cd383ec232414f1d
           ports:
             - containerPort: 80
