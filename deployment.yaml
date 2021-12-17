@@ -14,7 +14,7 @@ spec:
         app: globex
     spec:
       containers:
-      - name: globex
-        image: lrochette/globex:1.0.0
-        ports:
-        - containerPort: 80
+        - name: globex
+          image: lrochette/globex:46e5353d292dac9dbc1fc8c9c5c32cd2de37b8a9
+          ports:
+            - containerPort: 80
