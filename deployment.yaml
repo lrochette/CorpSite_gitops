@@ -16,5 +16,16 @@ spec:
       containers:
         - name: globex
           image: lrochette/globex:50d87d76fc70a4e778d9ac4e22e026c66d004690
+          imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 80
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
