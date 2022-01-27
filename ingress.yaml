@@ -7,7 +7,7 @@ spec:
   rules:
     - http:
         paths:
-          - path: /globex-web
+          - path: /globex
             backend:
               service:
                 name: globex
