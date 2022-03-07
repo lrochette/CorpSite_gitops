@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: globex
-          image: lrochette/globex:cfa69c9102e5273fc0133155ae78b8e101964591
+          image: lrochette/globex:84dd254d417b061fd288a5efe934aed0f2677d0d
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
