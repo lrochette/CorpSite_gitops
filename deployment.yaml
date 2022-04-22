@@ -16,7 +16,7 @@ spec:
       containers:
         - name: globex
           image: lrochette/globex:1.0.0
-          imagePullPolicy: Always # IfNotPresent
+          imagePullPolicy: Always
           ports:
             - name: http
               containerPort: 80
