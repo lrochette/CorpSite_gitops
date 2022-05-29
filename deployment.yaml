@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: globex
-          image: lrochette/globex:1.1.0
+          image: lrochette/globex:bc847bb60fd1599978f89d2094c551e1ee17a93e
           imagePullPolicy: Always
           ports:
             - name: http
